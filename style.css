@@ -1,0 +1,107 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 5em;
+    color: #f1f1f1;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.buscador {
+    padding: .8em;
+    border: none;
+    border-radius: 30px;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+
+li a {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2B2B2B;
+    font-family: sans-serif;
+}
+
+
+
+.container {
+    margin: 3em;
+    padding: 1em;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: stretch;
+}
+
+.movieContainer {
+    max-width: 280px;
+    max-height: 400px;
+    margin: 10px;
+    padding: 1.5em;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.movieImage {
+    max-width: 270px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.movieTitle {
+    margin: 20px 0 5px 0;
+    font-size: 1.2em;
+    color: #2B2B2B;
+}
+
+.movieDescription {
+    margin: 5px 0 15px 0;
+    font-size: .95em;
+    color: #2B2B2B;
+}
+
+.movieStars {
+    margin: 10px 0;
+    color: #2B2B2B;
+}
+
+.watchButton {
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 1em;
+    background-color: #2B2B2B;
+    border: none;
+    color: #f1f1f1;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter {
+    display: none;
+}
