@@ -1,20 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2B2B2B;
+    font-family: sans-serif;
+}
+
+.mainContainer {
+    display: flex;
+}
+
 .navBar {
+    margin: 10px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 1em 5em;
+    flex-direction: column;
+    padding: 1em;
     color: #f1f1f1;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    position: fixed;
+    height: 100vh;
+    width: 5%;
+    box-shadow: 17px 0px 12px -14px rgba(0, 0, 0, 0.4);
 }
 
 nav {
+    margin: 10px 0;
     display: flex;
-    align-items: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 1em;
+    width: 20%;
+    justify-content: flex-start;
+    position: fixed;
+    height: 100vh;
+    width: 15%;
+    left: 5%;
+    padding: 20px 30px;
+    box-shadow: 17px 0px 12px -14px rgba(0, 0, 0, 0.4);
 }
 
 .buscador {
-    padding: .8em;
+    padding: .6em;
     border: none;
     border-radius: 30px;
 
@@ -22,9 +55,10 @@ nav {
 
 ul {
     display: flex;
+    flex-direction: column;
     list-style: none;
     justify-content: space-between;
-    gap: 1.5em;
+    gap: 10px;
 }
 
 li a {
@@ -33,32 +67,37 @@ li a {
 }
 
 .pageTitle a {
-    color: #f1f1f1;
+    color: #B73E3E;
     text-decoration: none;
+    font-size: 1.5em;
 }
 
-
-body, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: #2B2B2B;
-    font-family: sans-serif;
+.options {
+    background-color: #B73E3E;
+    margin-top: 20px;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+.fa-bars {
+    color: #f1f1f1;
+    font-size: 20px;
 }
 
 .container {
-    margin: 0 2em;
-    padding: 1em;
+    max-width: 40%;
+    padding: 20px 30px;
     display: flex;
     min-height: 100vh;
     flex-wrap: wrap;
     align-content: flex-start;
-    justify-content: flex-start;
+    justify-content: center;
     position: absolute;
+    left: 20%;
+    box-shadow: 17px 0px 12px -14px rgba(0, 0, 0, 0.4);
 }
 
 .movieContainer {
-    min-width: 240px;
+    max-width: 200px;
     margin: 10px;
     padding: 0;
     display: flex;
@@ -91,25 +130,6 @@ body, html {
     color: #f1f1f199;
 }
 
-.movieStars {
-    margin: 10px 0;
-    color: #f1f1f1;
-}
-
-.watchButton {
-    border-radius: 20px;
-    cursor: pointer;
-    padding: 1em;
-    background-color: #2B2B2B;
-    border: none;
-    color: #f1f1f1;
-}
-
-.buttonContainer {
-    display: flex;
-    justify-content: space-between;
-}
-
 .filter {
     display: none;
 }
@@ -124,32 +144,20 @@ body, html {
 
 .modal {
     height: 100vh;
-    position: relative;
-    width: 100%;
+    width: 40%;
     display: flex;
-    justify-content: center;
-    visibility: hidden;
-    margin: 0;
-    padding: 0;
-    opacity: 0;
-}
-
-.show {
-    visibility: visible;
-    opacity: 1;
-    transition: .3s;
-}
-
-.close {
-    position: relative;
-    margin: 0;
+    left: 60%;
+    position: fixed;
 }
 
 .fa-x {
-    color: #f1f1f1;
+    color: #2B2B2B;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+        0px 8px 13px rgba(0, 0, 0, 0.1),
+        0px 18px 23px rgba(0, 0, 0, 0.1);
     position: absolute;
     z-index: 900;
-    font-size: 1.2em;
+    font-size: 1.4em;
     cursor: pointer;
     margin: 0;
     right: 10px;
@@ -157,19 +165,14 @@ body, html {
 }
 
 .modalContainer {
-    max-width: 60%;
-    max-height: 80%;
     display: flex;
     flex-direction: column;
-    align-items: left;
-    border-radius: 10px;
 }
 
 .modalImage {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    border-radius: 10px 10px 0 0;
 }
 
 .modalInfoContainer {
@@ -181,6 +184,7 @@ body, html {
 
 .modalTitle {
     font-size: 1.5em;
+    margin: .5em auto;
 }
 
 .modalDescription {
@@ -212,9 +216,8 @@ body, html {
 .play:hover,
 .addToList:hover,
 .like:hover {
-    background-color: #f1f1f1;
-    color: #2B2B2B;
-    transition: .2s;
+    transform: scale(1.3);
+    transition-duration: .2s;
 }
 
 .fa-plus,
