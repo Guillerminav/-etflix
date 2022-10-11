@@ -153,7 +153,6 @@ const addMovie = (img, title, description, stars) => {
 
     // Ventana modal
     movieContainer.addEventListener('click', (e) => {
-        document.querySelector('.modal').classList.add('show')
         let modalImg = document.querySelector('.modalImage')
         let modalTitle = document.querySelector('.modalTitle')
         let modalDescription = document.querySelector('.modalDescription')
@@ -163,11 +162,6 @@ const addMovie = (img, title, description, stars) => {
         modalDescription.innerHTML = description
         getRatings()
     })
-
-    document.querySelector('.close').addEventListener('click', () => {
-      document.querySelector('.modal').classList.remove('show')
-    }
-)
 
     return movieContainer;
 }
@@ -181,21 +175,6 @@ for (let i = 0; i < info.length; i++) {
 }
 
 container.appendChild(elementoTemporal)
-
-// // Ratings
-
-// let starsTotal = 5
-
-// function getRatings() {
-//     for (let i = 0; i < info.length; i++) {
-//         const starPercentage = (info[i].stars / starsTotal) * 100;
-//         const starPercentageRounded = `${Math.round(starPercentage / 10) * 10}%`
-//         document.querySelector(`.starsInner`).style.width = starPercentageRounded;
-//         document.querySelector(`.numberRating`).innerHTML = `${info[i].stars}`;
-//     }
-
-// }
-// document.addEventListener('DOMContentLoaded', getRatings);
 
 
 // Filtro de búsqueda
