@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>ÑETFLIX</title>
 </head>
 <body>
     <div class="navBar">
         <div class="title">
-            <h1>ÑETFLIX</h1>
+            <h1 class="pageTitle"><a href="./index.html">ÑETFLIX</a></h1>
         </div>
         <nav>
             <div class="buscadorContainer">
@@ -24,6 +27,38 @@
     </div>
     <div class="container">
 
+    </div>
+
+    <div class="modal">
+        <div class="modalContainer">
+            <div class="close"><i class="fa-solid fa-x"></i></div>
+            <img class="modalImage" src="./assets/img8.webp"></img>
+            <div class="modalInfoContainer">
+                <h2 class="modalTitle">Virgen a los 40</h2>
+                <p class="modalDescription">Andy, de 40 años, todavía "no lo ha hecho". Sus compañeros de trabajo (obsesionados por el
+                    sexo) se proponen ayudarlo a
+                    perder la virginidad</p>
+                <div class="modalFooter">
+                    <div class="commands">
+                        <div class="play" title="Play">
+                            <i class="fa-solid fa-play"></i>
+                        </div>
+                        <div class="addToList" title="Add to list">
+                            <i class="fa-regular fa-plus"></i>
+                        </div>
+                        <div class="like" title="Like">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="ratings">
+                        <div class="starsOuter">
+                            <div class="starsInner"></div>
+                        </div>
+                        <span class="numberRating">5</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script type="module" src="./index.js"></script>

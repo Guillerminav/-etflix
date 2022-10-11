@@ -5,7 +5,7 @@ const info = [
         title: 'Inseparables',
         description: 'Un adinerado hombre de negocios con tetraplejia contrata a un jardinero impulsivo como su asistente terapéutico. basada en hechos reales.',
         stars: 3.9,
-        keywords: ['argentina', 'comedia']
+        keywords: ['argentina', 'comedia'],
     },
     {
         img: './assets/img2.jpg',
@@ -19,13 +19,6 @@ const info = [
         title: 'Locura de amor en Las Vegas',
         description: 'Después de una noche de copas intensa en Las Vegas, dos extraños amanecen con la desafortunada novedad de que están casados.',
         stars: 4.9,
-        keywords: ['comedia', 'romantica']
-    },
-    {
-        img: './assets/img4.webp',
-        title: 'La mujer de mis pesadillas',
-        description: 'Eddie comienza a salir con la aparentemente fabulosa Lila y le propone matrimonio a la semana de conocerla. Pero en la luna de miel, Lila revela su horrible naturaleza',
-        stars: 4,
         keywords: ['comedia', 'romantica']
     },
     {
@@ -53,52 +46,67 @@ const info = [
         img: './assets/img8.webp',
         title: 'Virgen a los 40',
         description: 'Andy, de 40 años, todavía "no lo ha hecho". Sus compañeros de trabajo (obsesionados por el sexo) se proponen ayudarlo a perder la virginidad.',
-        stars: 4.5,
+        stars: 2,
         keywords: ['comedia', 'romantica']
     },
 ]
 
 
+// Añadir peliculas dinámicamente
+
 let container = document.querySelector('.container');
 
 const addMovie = (img, title, description, stars) => {
+
+    // Creacion de elementos
     let movieContainer = document.createElement('DIV')
     let movieImage = document.createElement('IMG')
-    let movieTitle = document.createElement('H2')
-    let movieDescription = document.createElement('P')
-    let movieStars = document.createElement('P')
-    let watchNow = document.createElement('BUTTON')
-    let buttonContainer = document.createElement('DIV')
+    // let movieTitle = document.createElement('H2')
+    // let movieDescription = document.createElement('P')
+    // let movieStars = document.createElement('P')
+    // let watchNow = document.createElement('BUTTON')
+    // let buttonContainer = document.createElement('DIV')
 
+    // Agregamos clases
     movieImage.setAttribute("src", img)
     movieContainer.classList.add('movieContainer')
     movieImage.classList.add('movieImage')
-    movieTitle.classList.add('movieTitle')
-    movieDescription.classList.add('movieDescription')
-    movieStars.classList.add('movieStars')
-    watchNow.classList.add('watchButton')
-    buttonContainer.classList.add('buttonContainer')
+    // movieTitle.classList.add('movieTitle')
+    // movieDescription.classList.add('movieDescription')
+    // movieStars.classList.add('movieStars')
+    // watchNow.classList.add('watchButton')
+    // buttonContainer.classList.add('buttonContainer')
 
-    movieTitle.textContent = title
-    movieDescription.textContent = description
-    movieStars.textContent = stars
-    watchNow.textContent = 'Ver ahora'
+    // Agregamos textNodes
+    //movieTitle.textContent = title
+    //movieDescription.textContent = description
+    //movieStars.textContent = stars
+    //watchNow.textContent = 'Ver ahora'
 
-    buttonContainer.appendChild(movieStars)
-    buttonContainer.appendChild(watchNow)
 
+    //buttonContainer.appendChild(movieStars)
+    //buttonContainer.appendChild(watchNow)
     movieContainer.appendChild(movieImage)
-    movieContainer.appendChild(movieTitle)
-    movieContainer.appendChild(movieDescription)
-    movieContainer.appendChild(buttonContainer)
+    //movieContainer.appendChild(movieTitle)
+    //movieContainer.appendChild(movieDescription)
+    //movieContainer.appendChild(buttonContainer)
 
-    for (let i = 0; i < info.length; i++) {
-        if(info[i].stars >= 3) {
-            movieStars.style.color = 'green'
-        } else {
-            movieStars.style.color = 'red'
-        }
-    }
+    // Eventos
+    movieContainer.addEventListener('mouseover', () => {
+        movieContainer.classList.add('hoverEffect')
+    })
+    movieContainer.addEventListener('mouseleave', () => {
+        movieContainer.classList.remove('hoverEffect')
+    })
+
+    // Ventana modal
+    movieContainer.addEventListener('click', (e) => {
+        let evento = e.target
+        console.log(evento)
+        document.querySelector('.modal').classList.add('show')
+    })
+
+    document.querySelector('.close').addEventListener('click', () => document.querySelector('.modal').classList.remove('show'))
 
     return movieContainer;
 }
@@ -111,7 +119,25 @@ for (let i = 0; i < info.length; i++) {
     elementoTemporal.appendChild(newMovie);
 }
 
-    container.appendChild(elementoTemporal)
+container.appendChild(elementoTemporal)
+
+// Ratings
+
+let starsTotal = 5
+
+function getRatings() {
+    for (let i = 0; i < info.length; i++) {
+        const starPercentage = (info[i].stars / starsTotal) * 100;
+        const starPercentageRounded = `${Math.round(starPercentage / 10) * 10}%`
+        document.querySelector(`.starsInner`).style.width = starPercentageRounded;
+        document.querySelector(`.numberRating`).innerHTML = `${info[i].stars}`;
+    }
+
+}
+
+document.addEventListener('DOMContentLoaded', getRatings);
+
+// Filtro de búsqueda
 
 let inputSearch = document.querySelector('#search')
 let titulos = document.querySelectorAll('.movieContainer')
@@ -133,3 +159,12 @@ inputSearch.addEventListener('keyup', (e) => {
         }
     }
 })
+
+// Falta resolver:
+// - centrar el contenido y que al wrappearse no queden los items centrados
+
+
+// Puntuacion:
+// -img con ancho de 50px y div con mismo ancho
+// imagen en cover
+// - nro de estrellas en %
