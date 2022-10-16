@@ -21,6 +21,7 @@ html {
     margin: 10px 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     flex-direction: column;
     padding: 1em;
     color: #f1f1f1;
@@ -29,6 +30,8 @@ html {
     width: 4%;
     box-shadow: 17px 0px 12px -14px rgba(0, 0, 0, 0.4);
     z-index: 999;
+    transition: .4s;
+    position: fixed;
 }
 
 nav {
@@ -37,7 +40,6 @@ nav {
     align-items: left;
     flex-direction: column;
     gap: 1em;
-    width: 20%;
     justify-content: flex-start;
     position: fixed;
     height: 100vh;
@@ -46,6 +48,8 @@ nav {
     padding: 20px 30px;
     box-shadow: 17px 0px 12px -14px rgba(0, 0, 0, 0.4);
     z-index: 800;
+    transition: .4s;
+
 }
 
 .buscador {
@@ -58,7 +62,6 @@ nav {
     width: 100%;
     border-radius: 2px;
     color: #f1f1f1;
-    
 }
 
 .movie-options {
@@ -106,17 +109,53 @@ nav {
     color: #B73E3E;
     text-decoration: none;
     font-size: 1.5em;
+    display: flex;
+    align-items: center;
 }
 
-.options {
-    background-color: #B73E3E;
+.options, .userContainer, .settingsContainer {
+    text-decoration: none;
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
     margin-top: 20px;
-    padding: 10px 12px;
-    border-radius: 50%;
+    gap: 15px;
+    cursor: pointer;
 }
-.fa-bars {
+
+.fa-bars, .fa-user {
     color: #f1f1f1;
     font-size: 20px;
+    background-color: #B73E3E;
+    padding: 10px 12px;
+    border-radius: 50%;
+    display: inline;
+}
+
+.topOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottomOptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-gear {
+    font-size: 30px;
+    color: #f1f1f1;
+    margin: 10px auto;
+}
+.spanTitle {
+    font-size: 20px;
+    display: none;
+}
+.navFullWidth {
+    display: none;
+    font-size: 18px;
 }
 
 .container {
@@ -131,6 +170,7 @@ nav {
     left: 18%;
     box-shadow: 17px 0px 12px -14px rgba(0, 0, 0, 0.4);
     z-index: 700;
+    transition: .5s;
 }
 
 .movieContainer {
@@ -182,12 +222,13 @@ nav {
 
 .modal {
     height: 100vh;
-    width: 40%;
+    width: 60%;
     display: flex;
-    left: 60%;
+    left: 50%;
     position: fixed;
-
+    transition: .5s;
 }
+
 
 .fa-x {
     color: #2B2B2B;
@@ -224,7 +265,7 @@ nav {
     margin: 0;
     z-index: 600;
     position: relative;
-    top: 40vh;
+    top: 45vh;
 }
 
 .modalTitle {

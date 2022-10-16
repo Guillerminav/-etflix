@@ -74,8 +74,8 @@ const info = [
         img: './assets/img12.webp',
         title: 'Ni en sueños',
         description: 'Un inesperado reencuentro lleva a una obstinada candidata presidencial a contratar a un imprudente redactor de discursos que desafía sus políticas... y su corazón.',
-      stars: 2.6,
-      keywords: ['comedia', 'romantica']
+        stars: 2.6,
+        keywords: ['comedia', 'romantica']
     },
     {
         img: './assets/img13.webp',
@@ -83,6 +83,69 @@ const info = [
         description: 'En la novela de Jane Austen del siglo XIX, la Sra. Bennet quiere casar a sus hijas con prósperos caballeros, incluido el recién llegado Sr. Darcy.',
         stars: 4,
         keywords: ['drama', 'romantica']
+    },
+    {
+        img: './assets/img14.jpg',
+        title: 'La chica mas afortunada del mundo',
+        description: 'La vida perfecta de una escritora en Nueva York comienza a desmoronarse cuando un documental sobre crímenes reales la obliga a entrentarse a su desgarradora historia escolar.',
+        stars: 4.5,
+        keywords: ['drama', 'suspenso']
+    },
+    {
+        img: './assets/img15.jpg',
+        title: 'Derry Girls',
+        description: 'Pusieron una bomba en un puente cercano, pero Erin, Clare, Michelle, Oria y James estan preocupados por algo mucho mas grave: el primer dia en la escuela.',
+        stars: 3.2,
+        keywords: ['comedia']
+    },
+    {
+        img: './assets/img16.webp',
+        title: 'Ophelia',
+        description: 'En esta versión de Hamlet contada desde la perspectiva de Ofelia, el amor entre la dama de compañía y el noble de Dinamarca se ve amenazado por la traición y la locura.',
+        stars: 4,
+        keywords: ['romantica', 'drama']
+    },
+    {
+        img: './assets/img17.webp',
+        title: 'Dolittle',
+        description: 'Cuando la reina Victoria se enferma, el solitario doctor Dolittle, su joven aprendiz y sus amigos animales se embarcan en una aventura épica en busca de una cura mágica.',
+        stars: 2.5,
+        keywords: ['familiar', 'infantil']
+    },
+    {
+        img: './assets/img18.jpg',
+        title: 'Arrested development',
+        description: 'Esta es la historia de una familia rica que perdió todo, y el hijo que no tuvo otra opción que mantenerla unida.',
+        stars: 1,
+        keywords: ['comedia']
+    },
+    {
+        img: './assets/img19.jpg',
+        title: 'Grace and Frankie',
+        description: 'No son amigas, pero como sus esposos las dejaron para estar juntos, la rigida Grace y la excéntrica Frankie se reúnen en esta serie nominada a los Emmy.',
+        stars: 4.3,
+        keywords: ['comedia']
+    },
+    {
+        img: './assets/img20.webp',
+        title: 'First daughter',
+        description: 'La hija del presidente de EE. UU. quiere asistir a la universidad como cualquier otra chica. Pero cuando su papá es el líder del mundo libre, lo "normal" es relativo.',
+        stars: 4,
+        keywords: ['comedia', 'romantica']
+    },
+    {
+        img: './assets/img21.webp',
+        title: 'La mujer de mis pesadillas',
+        description: 'Eddie comienza a salir con la aparentemente fabulosa Lila y le propone matrimonio a la semana de conocerla. Pero en la luna de miel, Lila revela su horrible naturaleza.',
+        stars: 3.6,
+        keywords: ['comedia', 'romantica']
+    },
+    {
+        img: './assets/img22.webp',
+        title: '¿...Y dónde estan las rubias?',
+        description: 'Dos agentes negros del FBI cuya misión es cuidar a dos aristócratas cabezas huecas se hacen pasar por dos muchachas blancas para atrapar a los posibles secuestradores.',
+        stars: 2,
+        keywords: ['comedia']
     },
 ]
 
@@ -134,21 +197,27 @@ const addMovie = (img, title, description, stars, keywords) => {
         // Ratings
     let starsTotal = 5
     function getRatings() {
-          for (let i = 0; i < info.length; i++) {
-              const starPercentage = (stars / starsTotal) * 100;
-              const starPercentageRounded = `${Math.round(starPercentage / 10) * 10}%`
-              document.querySelector(`.starsInner`).style.width = starPercentageRounded;
-              let numberRating = document.querySelector('.numberRating')
-              numberRating.innerText = `${stars}`;
-          }
-
-      }
+        for (let i = 0; i < info.length; i++) {
+            const starPercentage = (stars / starsTotal) * 100;
+            const starPercentageRounded = `${Math.round(starPercentage / 10) * 10}%`
+            document.querySelector(`.starsInner`).style.width = starPercentageRounded;
+            let numberRating = document.querySelector('.numberRating')
+            numberRating.innerText = `${stars}`;
+        }
+    }
 
     // Ventana modal
     movieContainer.addEventListener('click', () => {
+        container.style.width = '32%'
+        let modal = document.querySelector('.modal')
+        modal.style.width = '50%'
+        modal.style.opacity = '1'
         let modalImg = document.querySelector('.modalImage')
         let modalTitle = document.querySelector('.modalTitle')
         let modalDescription = document.querySelector('.modalDescription')
+
+        let modalContainer = document.querySelector('.modalContainer')
+        modalContainer.style.display = 'block'
 
         modalImg.setAttribute("src", img)
         modalTitle.innerText = title
@@ -169,6 +238,81 @@ for (let i = 0; i < info.length; i++) {
 
 container.appendChild(elementoTemporal)
 
+// Ventana modal
+
+const bienvenida = () => {
+    let modal = document.querySelector('.modal')
+    modal.style.width = '0%'
+    modal.style.opacity = '0'
+    let moviesContainer = document.querySelector('.container')
+    moviesContainer.style.width = '82%'
+    let modalContainer = document.querySelector('.modalContainer')
+    modalContainer.style.display = 'none'
+}
+
+document.addEventListener('DOMContentLoaded', bienvenida)
+
+
+// const crearModal = (img, title, descrip) => {
+
+//     //Creacion de elementos
+//     let modalContainer = document.createElement('DIV')
+//     let modalImg = document.createElement('IMG')
+//     let modalInfoContainer = document.createElement('DIV')
+//     let modalTitle = document.createElement('H2')
+//     let modalDescription = document.createElement('P')
+//     let modalFooter = document.createElement('DIV')
+//     let commands = document.createElement('DIV')
+//     let play = document.createElement('DIV')
+//     let addToList = document.createElement('DIV')
+//     let like = document.createElement('DIV')
+//     let playItem = document.createElement('I')
+//     let addToListItem = document.createElement('I')
+//     let likeItem = document.createElement('I')
+//     let ratings = document.createElement('DIV')
+//     let starsOuter = document.createElement('DIV')
+//     let starsInner = document.createElement('DIV')
+//     let numberRating = document.createElement('SPAN')
+
+//     // Agregamos clases
+//     modalContainer.classList.add('modalContainer')
+//     modalImg.classList.add('modalImage')
+//     modalInfoContainer.classList.add('modalInfoContainer')
+//     modalTitle.classList.add('modalTitle')
+//     modalDescription.classList.add('modalDescription')
+//     modalFooter.classList.add('modalFooter')
+//     commands.classList.add('commands')
+//     play.classList.add('play')
+//     addToList.classList.add('addToList')
+//     like.classList.add('like')
+//     playItem.classList.add('fa-solid fa-play')
+//     addToListItem.classList.add('fa-regular fa-plus')
+//     likeItem.classList.add('fa-regular fa-heartr')
+//     ratings.classList.add('ratings')
+//     starsOuter.classList.add('starsOuter')
+//     starsInner.classList.add('starsInner')
+//     numberRating.classList.add('numberRating')
+
+//     // Anidacion de nodos
+//     modalContainer.appendChild(modalImg)
+//     modalContainer.appendChild(modalInfoContainer)
+//     modalInfoContainer.appendChild(modalTitle)
+//     modalInfoContainer.appendChild(modalDescription)
+//     modalInfoContainer.appendChild(modalFooter)
+//     modalFooter.appendChild(commands)
+//     modalFooter.appendChild(ratings)
+//     commands.appendChild(play)
+//     commands.appendChild(addToList)
+//     commands.appendChild(like)
+//     play.appendChild(playItem)
+//     addToList.appendChild(addToListItem)
+//     like.appendChild(likeItem)
+//     ratings.appendChild(starsOuter)
+//     starsOuter.appendChild(starsInner)
+//     ratings.appendChild(numberRating)
+// }
+
+// modal.appendChild(modalContainer)
 
 // Filtro de búsqueda
 
@@ -180,63 +324,106 @@ for(let titulo of titulos){
     items.push(titulo)
 }
 
-inputSearch.addEventListener('keyup', (e) => {
-    let text = e.target.value
-    let er = new RegExp(text, "i")
-    for(let i = 0; items.length; i++) {
-        let valor = items[i]
-        if(er.test(valor.innerText)) {
-            valor.classList.remove("filter")
-        }else{
-            valor.classList.add("filter")
+inputSearch.addEventListener('keyup', e => {
+    let text = e.target.value.toLowerCase()
+    let documentFragment = document.createDocumentFragment();
+    for (let i = 0; i < items.length; i++) {
+        if (items[i].textContent.toLowerCase().includes(text)) {
+            documentFragment.appendChild(items[i])
         }
     }
+    document.querySelector(".container").innerHTML = '';
+    document.querySelector(".container").appendChild(documentFragment)
 })
 
 // Filtors por categorias
 
 const dropdownItem = document.querySelectorAll('.dropdown-item')
 
-
-dropdownItem.forEach(item => {
-    item.addEventListener('click', (e) => {
-        let clicked = e.target.innerText.toLowerCase()
-        let er = new RegExp(clicked, "i")
-        for (let i = 0; i < items.length; i++){ 
-            let valor = items[i]
-            if(er.test(valor.innerText)){
-                console.log('INCLUIDO')
-                valor.classList.remove("filter")
-            }else{
-                valor.classList.add("filter")
+for (let i = 0; i < dropdownItem.length; i++) {
+    dropdownItem[i].addEventListener('click', e => {
+        let category = e.target.textContent.toLowerCase()
+        let documentFragment = document.createDocumentFragment()
+        for(let x = 0; x < items.length; x++) {
+            if (items[x].textContent.toLowerCase().includes(category)) {
+                documentFragment.appendChild(items[x])
             }
         }
+        document.querySelector(".container").innerHTML = '';
+        document.querySelector(".container").appendChild(documentFragment)
     })
-})
+}
 
+// dropdownItem.forEach(item => {
+//     item.addEventListener('click', (e) => {
+//         let clicked = e.target.innerText
+//         let er = new RegExp(clicked, "i")
+//         for (let i = 0; i < items.length; i++){ 
+//             let valor = items[i]
+//             if(er.test(valor.innerText)){
+//                 console.log('INCLUIDO')
+//                 valor.classList.remove("filter")
+//             }else{
+//                 valor.classList.add("filter")
+//             }
+//         }
+//     })
+// })
 
-// Dropdown items
+// Dropdown menu
 
 const listItem = document.querySelectorAll('.toggle')
 const dropdownItems = document.querySelectorAll('.dropdown-menu')
 
-const showToggle = () => {
-    dropdownItems.forEach(dropdown => {
-        dropdown.classList.toggle('show')
+for (let i = 0; i < listItem.length; i++) {
+    listItem[i].addEventListener("click",()=>{
+        dropdownItems[i].classList.toggle('show');
     })
 }
 
-listItem.forEach(item => {
-    item.addEventListener('click', showToggle)
+
+
+// mouse events
+
+let nav1 = document.querySelector('.navBar')
+let nav2 = document.querySelector('.nav2')
+let displayMovies = document.querySelector('.container')
+let displayModal = document.querySelector('.modal')
+let buscador = document.querySelector('.buscadorContainer')
+let movieOptions = document.querySelector('.movie-options')
+let pFullWidth = document.querySelectorAll('.navFullWidth')
+console.log(pFullWidth)
+
+nav1.addEventListener('mouseenter', () => {
+    nav1.style.width = '10%'
+    //nav2.style.width = '12%'
+    //nav2.style.left = '6%'
+    nav1.style.alignItems = 'flex-start'
+    nav2.style.opacity = 0
+    for(let i = 0; i < pFullWidth.length; i++) {
+        pFullWidth[i].style.display = 'block'
+        pFullWidth[i].style.opacity = 1
+        pFullWidth[i].style.transition = '2s'
+    }
+
+})
+
+nav1.addEventListener('mouseleave', () => {
+    nav1.style.width = '4%'
+    nav1.style.alignItems = 'center'
+    nav2.style.opacity = 1
+    for(let i = 0; i < pFullWidth.length; i++) {
+        pFullWidth[i].style.display = 'none'
+        pFullWidth[i].style.opacity = 0
+        pFullWidth[i].style.transition = '2s'
+    }
 })
 
 
 
-// Falta resolver:
-// - centrar el contenido y que al wrappearse no queden los items centrados
+// Problema: cuando haces click en "peliculas" se abre tambien series. Como hacer para que se abra el dropdown menu del elemento al que estas clickeando y nada mas? RESUELTO
 
 
-// Puntuacion:
-// -img con ancho de 50px y div con mismo ancho
-// imagen en cover
-// - nro de estrellas en %
+
+
+
