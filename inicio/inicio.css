@@ -28,15 +28,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 150px;
+    padding: 60px;
     border-radius: 20px;
     margin: 50px;
+    background-color: #ffffff08;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
 }
 
 .h1Bienvenida {
     color: #f1f1f1;
     font-size: 2em;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .btnIngresar, .btnCrearCuenta {
@@ -51,6 +54,7 @@
 }
 
 .btnIngresar:hover, .btnCrearCuenta:hover {
-    background-color: #f1f1f120;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
     transition: .2s;
 }
