@@ -8,96 +8,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>ÑETFLIX</title>
+    <link rel="stylesheet" href="./nav1/nav1.css">
+    <link rel="stylesheet" href="./inicio/inicio.css">
+    <link rel="stylesheet" href="./nav2/nav2.css">
+    <link rel="stylesheet" href="./modal/modal.css">
+    <link rel="stylesheet" href="./userProfile/userProfile.css">
+    <title>CINEMAR</title>
 </head>
 <body>
     <div class="mainContainer">
-      <div class="navBar">
-        <div class="topOptions">
-          <div class="title">
-            <h1 class="pageTitle"><a href="./index.html">Ñ<span class="navFullWidth spanTitle">ETFLIX</span></a></h1>
-          </div>
-          <div class="options">
-            <i class="fa-solid fa-bars"></i>
-            <p class="navFullWidth">Ver ahora</p>
-          </div>
-          <div class="userContainer">
-            <i class="fa-solid fa-user"></i>
-            <p class="navFullWidth">Mi cuenta</p>
-          </div>
-        </div>
-        <div class="bottomOptions">
-          <div class="settingsContainer">
-            <i class="fa-solid fa-gear"></i>
-            <p class="navFullWidth">Configuración</p>
-          </div>
-        </div>
-      </div>
-      <nav class="nav2">
-        <div class="buscadorContainer">
-          <input id="search" type="search" placeholder="Buscar" class="buscador">
-        </div>
-        <div class="movie-options">
-          <div class="options-item"><i class="fa-solid fa-caret-down"></i><a class ="toggle" href="#">Películas</a>
-            <ul class="dropdown-menu">
-              <li class="dropdown-item">Comedia</li>
-              <li class="dropdown-item">Accion</li>
-              <li class="dropdown-item">Drama</li>
-              <li class="dropdown-item">Ciencia Ficcion</li>
-              <li class="dropdown-item">Terror</li>
-              <li class="dropdown-item">Fantasia</li>
-              <li class="dropdown-item">Romantica</li>
-            </ul>
-          </div>
-          <div class="options-item"><i class="fa-solid fa-caret-down"></i><a class ="toggle" href="#">Series</a>
-            <ul class="dropdown-menu">
-              <li class="dropdown-item">Comedia</li>
-              <li class="dropdown-item">Acción</li>
-              <li class="dropdown-item">Drama</li>
-              <li class="dropdown-item">Ciencia Ficción</li>
-              <li class="dropdown-item">Terror</li>
-              <li class="dropdown-item">Fantasía</li>
-            </ul>
-          </div>
-          <div class="options-item"><a href="#">Nuevas</a></div>
-          <div class="options-item"><a href="#">Populares</a></div>
-          <div class="options-item"><a href="#">Mi lista</a></div>
-        </div class="movie-options">
-      </nav>
-
-      <div class="container">
-      </div>
-      
-      <div class="modal">
-        <div class="modalContainer">
-          <img class="modalImage" src="#"></img>
-          <div class="modalInfoContainer">
-            <h2 class="modalTitle"></h2>
-            <p class="modalDescription"></p>
-            <div class="modalFooter">
-              <div class="commands">
-                <div class="play" title="Play">
-                  <i class="fa-solid fa-play"></i>
-                </div>
-                <div class="addToList" title="Add to list">
-                  <i class="fa-regular fa-plus"></i>
-                </div>
-                <div class="like" title="Like">
-                  <i class="fa-regular fa-heart"></i>
-                </div>
-              </div>
-              <div class="ratings">
-                <div class="starsOuter">
-                  <div class="starsInner"></div>
-                </div>
-                <span class="numberRating"></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+      <nav class="nav1"></nav>
+      <div class="inicio"></div>
+      <nav class="nav2"></nav>
+      <div class="container"></div>
+      <div class="modal"></div>
     </div>
     <script type="module" src="./index.js"></script>
+    <script src="./nav1/nav1.js"></script>
+    <script src="./inicio/inicio.js"></script>
+    <script src="./nav2/nav2.js"></script>
+    <script type="module" src="./modal/modal.js"></script>
+    <script src="./userProfile/userProfile.js"></script>
 </body>
 </html>

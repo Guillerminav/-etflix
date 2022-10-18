@@ -1,0 +1,69 @@
+.nav1 {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1em;
+    color: #f1f1f1;
+    position: fixed;
+    height: 100vh;
+    width: 4%;
+    box-shadow: 17px 0px 12px -14px rgba(0, 0, 0, 0.4);
+    z-index: 999;
+    transition: .4s;
+    position: fixed;
+}
+
+.pageTitle a {
+    color: #B73E3E;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+
+.options, .userContainer, .settingsContainer {
+    text-decoration: none;
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.fa-bars, .fa-user {
+    color: #f1f1f1;
+    font-size: 20px;
+    background-color: #B73E3E;
+    padding: 10px 12px;
+    border-radius: 50%;
+    display: inline;
+}
+
+.topOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bottomOptions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-gear {
+    font-size: 30px;
+    color: #f1f1f1;
+    margin: 10px auto;
+}
+.spanTitle {
+    font-size: 20px;
+    display: none;
+}
+.navFullWidth {
+    display: none;
+    font-size: 18px;
+}

@@ -1,0 +1,425 @@
+{
+    "data" : [
+    {
+        "img": "./assets/img1.webp",
+        "title": "Inseparables",
+        "description": "Un adinerado hombre de negocios con tetraplejia contrata a un jardinero impulsivo como su asistente terapéutico. basada en hechos reales.",
+        "stars": 3.9,
+        "keywords": ["argentina", "comedia"]
+    },
+    {
+        "img": "./assets/img2.jpg",
+        "title": "Granizo",
+        "description": "Después de que le llueven críticas por fallar en el pronóstico de una tormenta, un meteorólogo se refugia en la casa de su hija e inicia un viaje de autodescubrimiento.",
+        "stars": 2,
+        "keywords": ["argentina", "comedia", "drama"]
+    },
+    {
+        "img": "./assets/ig1.jpg",
+        "title": "Nieve negra",
+        "description": "Salvador vive aislado en su refugio de montaña. Tras décadas sin verse, su hermano Marcos y su mujer Laura, que está embarazada, viajan a Argentina para convencerle de vender las tierras que comparten por herencia de su padre. Pronto se produce el enfrentamiento de los dos hermanos y reaparecen oscuros secretos del pasado, ante la asustada mirada de la indefensa Laura.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img3.jpg",
+        "title": "El ciudadano ilustre",
+        "description": "Daniel Mantovani es un escritor argentino que vive en Europa desde hace más de tres décadas, consagrado mundialmente por haber obtenido el premio Nobel de literatura. Sus novelas se caracterizan por retratar con maestría y despiadada crudeza la vida en Salas, el pequeño pueblo de Argentina en el que nació y al que no ha regresado desde que era un joven con aspiraciones de escritor. Entre la profusa correspondencia que recibe diariamente, le llega una carta de la municipalidad de Salas en la que lo invitan a recibir el máximo reconocimiento del pueblo: la distinción de Ciudadano ilustre. Sorprendentemente, y a pesar de sus importantes obligaciones y compromisos, Daniel decide aceptar la propuesta y regresar a Salas, su pueblo natal.",
+        "stars": 2,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img4.jpg",
+        "title": "Relatos salvajes",
+        "description": "La desigualdad, la injusticia y la exigencia del mundo en que vivimos producen que muchas personas se estresen o se depriman. Algunas explotan. Esta es una película sobre ellos. Vulnerables ante una realidad que súbitamente se altera y se torna impredecible, los protagonistas de Relatos salvajes cruzan la delgada frontera que divide a la civilización de la barbarie. Una traición amorosa, el retorno de un pasado reprimido, o la violencia contenida en un detalle cotidiano, se presentan para impulsarlos al vértigo de perder los estribos, al innegable placer de perder el control.",
+        "stars": 4.8,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img5.jpg",
+        "title": "La noche de los lápices",
+        "description": "Duro film argentino que recrea los trágicos acontecimientos que tuvieron lugar el 16 de septiembre de 1976 y los días posteriores en en la ciudad de La Plata, Argentina. Corrían los años de la última dictadura argentina (1976-1983), cuando entre las brutales represiones que se llevaron a cabo, el gobierno secuestró y torturó hasta la muerte a varios estudiantes de secundaria. Se trataba de jóvenes partidarios del peronismo derrocado por el golpe militar, chicos y chicas que en su mayoría no habían ni cumplido 18 años. Algunos sobrevivieron a esa horrorosa experiencia y en sus relatos se inspira esta historia.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img3.jpg",
+        "title": "El ciudadano ilustre",
+        "description": "Daniel Mantovani es un escritor argentino que vive en Europa desde hace más de tres décadas, consagrado mundialmente por haber obtenido el premio Nobel de literatura. Sus novelas se caracterizan por retratar con maestría y despiadada crudeza la vida en Salas, el pequeño pueblo de Argentina en el que nació y al que no ha regresado desde que era un joven con aspiraciones de escritor. Entre la profusa correspondencia que recibe diariamente, le llega una carta de la municipalidad de Salas en la que lo invitan a recibir el máximo reconocimiento del pueblo: la distinción de Ciudadano ilustre. Sorprendentemente, y a pesar de sus importantes obligaciones y compromisos, Daniel decide aceptar la propuesta y regresar a Salas, su pueblo natal.",
+        "stars": 2,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img4.jpg",
+        "title": "Relatos salvajes",
+        "description": "La desigualdad, la injusticia y la exigencia del mundo en que vivimos producen que muchas personas se estresen o se depriman. Algunas explotan. Esta es una película sobre ellos. Vulnerables ante una realidad que súbitamente se altera y se torna impredecible, los protagonistas de Relatos salvajes cruzan la delgada frontera que divide a la civilización de la barbarie. Una traición amorosa, el retorno de un pasado reprimido, o la violencia contenida en un detalle cotidiano, se presentan para impulsarlos al vértigo de perder los estribos, al innegable placer de perder el control.",
+        "stars": 4.8,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img5.jpg",
+        "title": "La noche de los lápices",
+        "description": "Duro film argentino que recrea los trágicos acontecimientos que tuvieron lugar el 16 de septiembre de 1976 y los días posteriores en en la ciudad de La Plata, Argentina. Corrían los años de la última dictadura argentina (1976-1983), cuando entre las brutales represiones que se llevaron a cabo, el gobierno secuestró y torturó hasta la muerte a varios estudiantes de secundaria. Se trataba de jóvenes partidarios del peronismo derrocado por el golpe militar, chicos y chicas que en su mayoría no habían ni cumplido 18 años. Algunos sobrevivieron a esa horrorosa experiencia y en sus relatos se inspira esta historia.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img1.webp",
+        "title": "Inseparables",
+        "description": "Un adinerado hombre de negocios con tetraplejia contrata a un jardinero impulsivo como su asistente terapéutico. basada en hechos reales.",
+        "stars": 3.9,
+        "keywords": ["argentina", "comedia"]
+    },
+    {
+        "img": "./assets/img2.jpg",
+        "title": "Granizo",
+        "description": "Después de que le llueven críticas por fallar en el pronóstico de una tormenta, un meteorólogo se refugia en la casa de su hija e inicia un viaje de autodescubrimiento.",
+        "stars": 2,
+        "keywords": ["argentina", "comedia", "drama"]
+    },
+    {
+        "img": "./assets/ig1.jpg",
+        "title": "Nieve negra",
+        "description": "Salvador vive aislado en su refugio de montaña. Tras décadas sin verse, su hermano Marcos y su mujer Laura, que está embarazada, viajan a Argentina para convencerle de vender las tierras que comparten por herencia de su padre. Pronto se produce el enfrentamiento de los dos hermanos y reaparecen oscuros secretos del pasado, ante la asustada mirada de la indefensa Laura.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img1.webp",
+        "title": "Inseparables",
+        "description": "Un adinerado hombre de negocios con tetraplejia contrata a un jardinero impulsivo como su asistente terapéutico. basada en hechos reales.",
+        "stars": 3.9,
+        "keywords": ["argentina", "comedia"]
+    },
+    {
+        "img": "./assets/img2.jpg",
+        "title": "Granizo",
+        "description": "Después de que le llueven críticas por fallar en el pronóstico de una tormenta, un meteorólogo se refugia en la casa de su hija e inicia un viaje de autodescubrimiento.",
+        "stars": 2,
+        "keywords": ["argentina", "comedia", "drama"]
+    },
+    {
+        "img": "./assets/ig1.jpg",
+        "title": "Nieve negra",
+        "description": "Salvador vive aislado en su refugio de montaña. Tras décadas sin verse, su hermano Marcos y su mujer Laura, que está embarazada, viajan a Argentina para convencerle de vender las tierras que comparten por herencia de su padre. Pronto se produce el enfrentamiento de los dos hermanos y reaparecen oscuros secretos del pasado, ante la asustada mirada de la indefensa Laura.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img3.jpg",
+        "title": "El ciudadano ilustre",
+        "description": "Daniel Mantovani es un escritor argentino que vive en Europa desde hace más de tres décadas, consagrado mundialmente por haber obtenido el premio Nobel de literatura. Sus novelas se caracterizan por retratar con maestría y despiadada crudeza la vida en Salas, el pequeño pueblo de Argentina en el que nació y al que no ha regresado desde que era un joven con aspiraciones de escritor. Entre la profusa correspondencia que recibe diariamente, le llega una carta de la municipalidad de Salas en la que lo invitan a recibir el máximo reconocimiento del pueblo: la distinción de Ciudadano ilustre. Sorprendentemente, y a pesar de sus importantes obligaciones y compromisos, Daniel decide aceptar la propuesta y regresar a Salas, su pueblo natal.",
+        "stars": 2,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img4.jpg",
+        "title": "Relatos salvajes",
+        "description": "La desigualdad, la injusticia y la exigencia del mundo en que vivimos producen que muchas personas se estresen o se depriman. Algunas explotan. Esta es una película sobre ellos. Vulnerables ante una realidad que súbitamente se altera y se torna impredecible, los protagonistas de Relatos salvajes cruzan la delgada frontera que divide a la civilización de la barbarie. Una traición amorosa, el retorno de un pasado reprimido, o la violencia contenida en un detalle cotidiano, se presentan para impulsarlos al vértigo de perder los estribos, al innegable placer de perder el control.",
+        "stars": 4.8,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img5.jpg",
+        "title": "La noche de los lápices",
+        "description": "Duro film argentino que recrea los trágicos acontecimientos que tuvieron lugar el 16 de septiembre de 1976 y los días posteriores en en la ciudad de La Plata, Argentina. Corrían los años de la última dictadura argentina (1976-1983), cuando entre las brutales represiones que se llevaron a cabo, el gobierno secuestró y torturó hasta la muerte a varios estudiantes de secundaria. Se trataba de jóvenes partidarios del peronismo derrocado por el golpe militar, chicos y chicas que en su mayoría no habían ni cumplido 18 años. Algunos sobrevivieron a esa horrorosa experiencia y en sus relatos se inspira esta historia.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img3.jpg",
+        "title": "El ciudadano ilustre",
+        "description": "Daniel Mantovani es un escritor argentino que vive en Europa desde hace más de tres décadas, consagrado mundialmente por haber obtenido el premio Nobel de literatura. Sus novelas se caracterizan por retratar con maestría y despiadada crudeza la vida en Salas, el pequeño pueblo de Argentina en el que nació y al que no ha regresado desde que era un joven con aspiraciones de escritor. Entre la profusa correspondencia que recibe diariamente, le llega una carta de la municipalidad de Salas en la que lo invitan a recibir el máximo reconocimiento del pueblo: la distinción de Ciudadano ilustre. Sorprendentemente, y a pesar de sus importantes obligaciones y compromisos, Daniel decide aceptar la propuesta y regresar a Salas, su pueblo natal.",
+        "stars": 2,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img4.jpg",
+        "title": "Relatos salvajes",
+        "description": "La desigualdad, la injusticia y la exigencia del mundo en que vivimos producen que muchas personas se estresen o se depriman. Algunas explotan. Esta es una película sobre ellos. Vulnerables ante una realidad que súbitamente se altera y se torna impredecible, los protagonistas de Relatos salvajes cruzan la delgada frontera que divide a la civilización de la barbarie. Una traición amorosa, el retorno de un pasado reprimido, o la violencia contenida en un detalle cotidiano, se presentan para impulsarlos al vértigo de perder los estribos, al innegable placer de perder el control.",
+        "stars": 4.8,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img5.jpg",
+        "title": "La noche de los lápices",
+        "description": "Duro film argentino que recrea los trágicos acontecimientos que tuvieron lugar el 16 de septiembre de 1976 y los días posteriores en en la ciudad de La Plata, Argentina. Corrían los años de la última dictadura argentina (1976-1983), cuando entre las brutales represiones que se llevaron a cabo, el gobierno secuestró y torturó hasta la muerte a varios estudiantes de secundaria. Se trataba de jóvenes partidarios del peronismo derrocado por el golpe militar, chicos y chicas que en su mayoría no habían ni cumplido 18 años. Algunos sobrevivieron a esa horrorosa experiencia y en sus relatos se inspira esta historia.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img1.webp",
+        "title": "Inseparables",
+        "description": "Un adinerado hombre de negocios con tetraplejia contrata a un jardinero impulsivo como su asistente terapéutico. basada en hechos reales.",
+        "stars": 3.9,
+        "keywords": ["argentina", "comedia"]
+    },
+    {
+        "img": "./assets/img2.jpg",
+        "title": "Granizo",
+        "description": "Después de que le llueven críticas por fallar en el pronóstico de una tormenta, un meteorólogo se refugia en la casa de su hija e inicia un viaje de autodescubrimiento.",
+        "stars": 2,
+        "keywords": ["argentina", "comedia", "drama"]
+    },
+    {
+        "img": "./assets/ig1.jpg",
+        "title": "Nieve negra",
+        "description": "Salvador vive aislado en su refugio de montaña. Tras décadas sin verse, su hermano Marcos y su mujer Laura, que está embarazada, viajan a Argentina para convencerle de vender las tierras que comparten por herencia de su padre. Pronto se produce el enfrentamiento de los dos hermanos y reaparecen oscuros secretos del pasado, ante la asustada mirada de la indefensa Laura.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img1.webp",
+        "title": "Inseparables",
+        "description": "Un adinerado hombre de negocios con tetraplejia contrata a un jardinero impulsivo como su asistente terapéutico. basada en hechos reales.",
+        "stars": 3.9,
+        "keywords": ["argentina", "comedia"]
+    },
+    {
+        "img": "./assets/img2.jpg",
+        "title": "Granizo",
+        "description": "Después de que le llueven críticas por fallar en el pronóstico de una tormenta, un meteorólogo se refugia en la casa de su hija e inicia un viaje de autodescubrimiento.",
+        "stars": 2,
+        "keywords": ["argentina", "comedia", "drama"]
+    },
+    {
+        "img": "./assets/ig1.jpg",
+        "title": "Nieve negra",
+        "description": "Salvador vive aislado en su refugio de montaña. Tras décadas sin verse, su hermano Marcos y su mujer Laura, que está embarazada, viajan a Argentina para convencerle de vender las tierras que comparten por herencia de su padre. Pronto se produce el enfrentamiento de los dos hermanos y reaparecen oscuros secretos del pasado, ante la asustada mirada de la indefensa Laura.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img3.jpg",
+        "title": "El ciudadano ilustre",
+        "description": "Daniel Mantovani es un escritor argentino que vive en Europa desde hace más de tres décadas, consagrado mundialmente por haber obtenido el premio Nobel de literatura. Sus novelas se caracterizan por retratar con maestría y despiadada crudeza la vida en Salas, el pequeño pueblo de Argentina en el que nació y al que no ha regresado desde que era un joven con aspiraciones de escritor. Entre la profusa correspondencia que recibe diariamente, le llega una carta de la municipalidad de Salas en la que lo invitan a recibir el máximo reconocimiento del pueblo: la distinción de Ciudadano ilustre. Sorprendentemente, y a pesar de sus importantes obligaciones y compromisos, Daniel decide aceptar la propuesta y regresar a Salas, su pueblo natal.",
+        "stars": 2,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img4.jpg",
+        "title": "Relatos salvajes",
+        "description": "La desigualdad, la injusticia y la exigencia del mundo en que vivimos producen que muchas personas se estresen o se depriman. Algunas explotan. Esta es una película sobre ellos. Vulnerables ante una realidad que súbitamente se altera y se torna impredecible, los protagonistas de Relatos salvajes cruzan la delgada frontera que divide a la civilización de la barbarie. Una traición amorosa, el retorno de un pasado reprimido, o la violencia contenida en un detalle cotidiano, se presentan para impulsarlos al vértigo de perder los estribos, al innegable placer de perder el control.",
+        "stars": 4.8,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img5.jpg",
+        "title": "La noche de los lápices",
+        "description": "Duro film argentino que recrea los trágicos acontecimientos que tuvieron lugar el 16 de septiembre de 1976 y los días posteriores en en la ciudad de La Plata, Argentina. Corrían los años de la última dictadura argentina (1976-1983), cuando entre las brutales represiones que se llevaron a cabo, el gobierno secuestró y torturó hasta la muerte a varios estudiantes de secundaria. Se trataba de jóvenes partidarios del peronismo derrocado por el golpe militar, chicos y chicas que en su mayoría no habían ni cumplido 18 años. Algunos sobrevivieron a esa horrorosa experiencia y en sus relatos se inspira esta historia.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img3.jpg",
+        "title": "El ciudadano ilustre",
+        "description": "Daniel Mantovani es un escritor argentino que vive en Europa desde hace más de tres décadas, consagrado mundialmente por haber obtenido el premio Nobel de literatura. Sus novelas se caracterizan por retratar con maestría y despiadada crudeza la vida en Salas, el pequeño pueblo de Argentina en el que nació y al que no ha regresado desde que era un joven con aspiraciones de escritor. Entre la profusa correspondencia que recibe diariamente, le llega una carta de la municipalidad de Salas en la que lo invitan a recibir el máximo reconocimiento del pueblo: la distinción de Ciudadano ilustre. Sorprendentemente, y a pesar de sus importantes obligaciones y compromisos, Daniel decide aceptar la propuesta y regresar a Salas, su pueblo natal.",
+        "stars": 2,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img4.jpg",
+        "title": "Relatos salvajes",
+        "description": "La desigualdad, la injusticia y la exigencia del mundo en que vivimos producen que muchas personas se estresen o se depriman. Algunas explotan. Esta es una película sobre ellos. Vulnerables ante una realidad que súbitamente se altera y se torna impredecible, los protagonistas de Relatos salvajes cruzan la delgada frontera que divide a la civilización de la barbarie. Una traición amorosa, el retorno de un pasado reprimido, o la violencia contenida en un detalle cotidiano, se presentan para impulsarlos al vértigo de perder los estribos, al innegable placer de perder el control.",
+        "stars": 4.8,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img5.jpg",
+        "title": "La noche de los lápices",
+        "description": "Duro film argentino que recrea los trágicos acontecimientos que tuvieron lugar el 16 de septiembre de 1976 y los días posteriores en en la ciudad de La Plata, Argentina. Corrían los años de la última dictadura argentina (1976-1983), cuando entre las brutales represiones que se llevaron a cabo, el gobierno secuestró y torturó hasta la muerte a varios estudiantes de secundaria. Se trataba de jóvenes partidarios del peronismo derrocado por el golpe militar, chicos y chicas que en su mayoría no habían ni cumplido 18 años. Algunos sobrevivieron a esa horrorosa experiencia y en sus relatos se inspira esta historia.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img1.webp",
+        "title": "Inseparables",
+        "description": "Un adinerado hombre de negocios con tetraplejia contrata a un jardinero impulsivo como su asistente terapéutico. basada en hechos reales.",
+        "stars": 3.9,
+        "keywords": ["argentina", "comedia"]
+    },
+    {
+        "img": "./assets/img2.jpg",
+        "title": "Granizo",
+        "description": "Después de que le llueven críticas por fallar en el pronóstico de una tormenta, un meteorólogo se refugia en la casa de su hija e inicia un viaje de autodescubrimiento.",
+        "stars": 2,
+        "keywords": ["argentina", "comedia", "drama"]
+    },
+    {
+        "img": "./assets/ig1.jpg",
+        "title": "Nieve negra",
+        "description": "Salvador vive aislado en su refugio de montaña. Tras décadas sin verse, su hermano Marcos y su mujer Laura, que está embarazada, viajan a Argentina para convencerle de vender las tierras que comparten por herencia de su padre. Pronto se produce el enfrentamiento de los dos hermanos y reaparecen oscuros secretos del pasado, ante la asustada mirada de la indefensa Laura.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img1.webp",
+        "title": "Inseparables",
+        "description": "Un adinerado hombre de negocios con tetraplejia contrata a un jardinero impulsivo como su asistente terapéutico. basada en hechos reales.",
+        "stars": 3.9,
+        "keywords": ["argentina", "comedia"]
+    },
+    {
+        "img": "./assets/img2.jpg",
+        "title": "Granizo",
+        "description": "Después de que le llueven críticas por fallar en el pronóstico de una tormenta, un meteorólogo se refugia en la casa de su hija e inicia un viaje de autodescubrimiento.",
+        "stars": 2,
+        "keywords": ["argentina", "comedia", "drama"]
+    },
+    {
+        "img": "./assets/ig1.jpg",
+        "title": "Nieve negra",
+        "description": "Salvador vive aislado en su refugio de montaña. Tras décadas sin verse, su hermano Marcos y su mujer Laura, que está embarazada, viajan a Argentina para convencerle de vender las tierras que comparten por herencia de su padre. Pronto se produce el enfrentamiento de los dos hermanos y reaparecen oscuros secretos del pasado, ante la asustada mirada de la indefensa Laura.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img3.jpg",
+        "title": "El ciudadano ilustre",
+        "description": "Daniel Mantovani es un escritor argentino que vive en Europa desde hace más de tres décadas, consagrado mundialmente por haber obtenido el premio Nobel de literatura. Sus novelas se caracterizan por retratar con maestría y despiadada crudeza la vida en Salas, el pequeño pueblo de Argentina en el que nació y al que no ha regresado desde que era un joven con aspiraciones de escritor. Entre la profusa correspondencia que recibe diariamente, le llega una carta de la municipalidad de Salas en la que lo invitan a recibir el máximo reconocimiento del pueblo: la distinción de Ciudadano ilustre. Sorprendentemente, y a pesar de sus importantes obligaciones y compromisos, Daniel decide aceptar la propuesta y regresar a Salas, su pueblo natal.",
+        "stars": 2,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img4.jpg",
+        "title": "Relatos salvajes",
+        "description": "La desigualdad, la injusticia y la exigencia del mundo en que vivimos producen que muchas personas se estresen o se depriman. Algunas explotan. Esta es una película sobre ellos. Vulnerables ante una realidad que súbitamente se altera y se torna impredecible, los protagonistas de Relatos salvajes cruzan la delgada frontera que divide a la civilización de la barbarie. Una traición amorosa, el retorno de un pasado reprimido, o la violencia contenida en un detalle cotidiano, se presentan para impulsarlos al vértigo de perder los estribos, al innegable placer de perder el control.",
+        "stars": 4.8,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img5.jpg",
+        "title": "La noche de los lápices",
+        "description": "Duro film argentino que recrea los trágicos acontecimientos que tuvieron lugar el 16 de septiembre de 1976 y los días posteriores en en la ciudad de La Plata, Argentina. Corrían los años de la última dictadura argentina (1976-1983), cuando entre las brutales represiones que se llevaron a cabo, el gobierno secuestró y torturó hasta la muerte a varios estudiantes de secundaria. Se trataba de jóvenes partidarios del peronismo derrocado por el golpe militar, chicos y chicas que en su mayoría no habían ni cumplido 18 años. Algunos sobrevivieron a esa horrorosa experiencia y en sus relatos se inspira esta historia.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img3.jpg",
+        "title": "El ciudadano ilustre",
+        "description": "Daniel Mantovani es un escritor argentino que vive en Europa desde hace más de tres décadas, consagrado mundialmente por haber obtenido el premio Nobel de literatura. Sus novelas se caracterizan por retratar con maestría y despiadada crudeza la vida en Salas, el pequeño pueblo de Argentina en el que nació y al que no ha regresado desde que era un joven con aspiraciones de escritor. Entre la profusa correspondencia que recibe diariamente, le llega una carta de la municipalidad de Salas en la que lo invitan a recibir el máximo reconocimiento del pueblo: la distinción de Ciudadano ilustre. Sorprendentemente, y a pesar de sus importantes obligaciones y compromisos, Daniel decide aceptar la propuesta y regresar a Salas, su pueblo natal.",
+        "stars": 2,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img4.jpg",
+        "title": "Relatos salvajes",
+        "description": "La desigualdad, la injusticia y la exigencia del mundo en que vivimos producen que muchas personas se estresen o se depriman. Algunas explotan. Esta es una película sobre ellos. Vulnerables ante una realidad que súbitamente se altera y se torna impredecible, los protagonistas de Relatos salvajes cruzan la delgada frontera que divide a la civilización de la barbarie. Una traición amorosa, el retorno de un pasado reprimido, o la violencia contenida en un detalle cotidiano, se presentan para impulsarlos al vértigo de perder los estribos, al innegable placer de perder el control.",
+        "stars": 4.8,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img5.jpg",
+        "title": "La noche de los lápices",
+        "description": "Duro film argentino que recrea los trágicos acontecimientos que tuvieron lugar el 16 de septiembre de 1976 y los días posteriores en en la ciudad de La Plata, Argentina. Corrían los años de la última dictadura argentina (1976-1983), cuando entre las brutales represiones que se llevaron a cabo, el gobierno secuestró y torturó hasta la muerte a varios estudiantes de secundaria. Se trataba de jóvenes partidarios del peronismo derrocado por el golpe militar, chicos y chicas que en su mayoría no habían ni cumplido 18 años. Algunos sobrevivieron a esa horrorosa experiencia y en sus relatos se inspira esta historia.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img1.webp",
+        "title": "Inseparables",
+        "description": "Un adinerado hombre de negocios con tetraplejia contrata a un jardinero impulsivo como su asistente terapéutico. basada en hechos reales.",
+        "stars": 3.9,
+        "keywords": ["argentina", "comedia"]
+    },
+    {
+        "img": "./assets/img2.jpg",
+        "title": "Granizo",
+        "description": "Después de que le llueven críticas por fallar en el pronóstico de una tormenta, un meteorólogo se refugia en la casa de su hija e inicia un viaje de autodescubrimiento.",
+        "stars": 2,
+        "keywords": ["argentina", "comedia", "drama"]
+    },
+    {
+        "img": "./assets/ig1.jpg",
+        "title": "Nieve negra",
+        "description": "Salvador vive aislado en su refugio de montaña. Tras décadas sin verse, su hermano Marcos y su mujer Laura, que está embarazada, viajan a Argentina para convencerle de vender las tierras que comparten por herencia de su padre. Pronto se produce el enfrentamiento de los dos hermanos y reaparecen oscuros secretos del pasado, ante la asustada mirada de la indefensa Laura.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img1.webp",
+        "title": "Inseparables",
+        "description": "Un adinerado hombre de negocios con tetraplejia contrata a un jardinero impulsivo como su asistente terapéutico. basada en hechos reales.",
+        "stars": 3.9,
+        "keywords": ["argentina", "comedia"]
+    },
+    {
+        "img": "./assets/img2.jpg",
+        "title": "Granizo",
+        "description": "Después de que le llueven críticas por fallar en el pronóstico de una tormenta, un meteorólogo se refugia en la casa de su hija e inicia un viaje de autodescubrimiento.",
+        "stars": 2,
+        "keywords": ["argentina", "comedia", "drama"]
+    },
+    {
+        "img": "./assets/ig1.jpg",
+        "title": "Nieve negra",
+        "description": "Salvador vive aislado en su refugio de montaña. Tras décadas sin verse, su hermano Marcos y su mujer Laura, que está embarazada, viajan a Argentina para convencerle de vender las tierras que comparten por herencia de su padre. Pronto se produce el enfrentamiento de los dos hermanos y reaparecen oscuros secretos del pasado, ante la asustada mirada de la indefensa Laura.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img3.jpg",
+        "title": "El ciudadano ilustre",
+        "description": "Daniel Mantovani es un escritor argentino que vive en Europa desde hace más de tres décadas, consagrado mundialmente por haber obtenido el premio Nobel de literatura. Sus novelas se caracterizan por retratar con maestría y despiadada crudeza la vida en Salas, el pequeño pueblo de Argentina en el que nació y al que no ha regresado desde que era un joven con aspiraciones de escritor. Entre la profusa correspondencia que recibe diariamente, le llega una carta de la municipalidad de Salas en la que lo invitan a recibir el máximo reconocimiento del pueblo: la distinción de Ciudadano ilustre. Sorprendentemente, y a pesar de sus importantes obligaciones y compromisos, Daniel decide aceptar la propuesta y regresar a Salas, su pueblo natal.",
+        "stars": 2,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img4.jpg",
+        "title": "Relatos salvajes",
+        "description": "La desigualdad, la injusticia y la exigencia del mundo en que vivimos producen que muchas personas se estresen o se depriman. Algunas explotan. Esta es una película sobre ellos. Vulnerables ante una realidad que súbitamente se altera y se torna impredecible, los protagonistas de Relatos salvajes cruzan la delgada frontera que divide a la civilización de la barbarie. Una traición amorosa, el retorno de un pasado reprimido, o la violencia contenida en un detalle cotidiano, se presentan para impulsarlos al vértigo de perder los estribos, al innegable placer de perder el control.",
+        "stars": 4.8,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img5.jpg",
+        "title": "La noche de los lápices",
+        "description": "Duro film argentino que recrea los trágicos acontecimientos que tuvieron lugar el 16 de septiembre de 1976 y los días posteriores en en la ciudad de La Plata, Argentina. Corrían los años de la última dictadura argentina (1976-1983), cuando entre las brutales represiones que se llevaron a cabo, el gobierno secuestró y torturó hasta la muerte a varios estudiantes de secundaria. Se trataba de jóvenes partidarios del peronismo derrocado por el golpe militar, chicos y chicas que en su mayoría no habían ni cumplido 18 años. Algunos sobrevivieron a esa horrorosa experiencia y en sus relatos se inspira esta historia.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img3.jpg",
+        "title": "El ciudadano ilustre",
+        "description": "Daniel Mantovani es un escritor argentino que vive en Europa desde hace más de tres décadas, consagrado mundialmente por haber obtenido el premio Nobel de literatura. Sus novelas se caracterizan por retratar con maestría y despiadada crudeza la vida en Salas, el pequeño pueblo de Argentina en el que nació y al que no ha regresado desde que era un joven con aspiraciones de escritor. Entre la profusa correspondencia que recibe diariamente, le llega una carta de la municipalidad de Salas en la que lo invitan a recibir el máximo reconocimiento del pueblo: la distinción de Ciudadano ilustre. Sorprendentemente, y a pesar de sus importantes obligaciones y compromisos, Daniel decide aceptar la propuesta y regresar a Salas, su pueblo natal.",
+        "stars": 2,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img4.jpg",
+        "title": "Relatos salvajes",
+        "description": "La desigualdad, la injusticia y la exigencia del mundo en que vivimos producen que muchas personas se estresen o se depriman. Algunas explotan. Esta es una película sobre ellos. Vulnerables ante una realidad que súbitamente se altera y se torna impredecible, los protagonistas de Relatos salvajes cruzan la delgada frontera que divide a la civilización de la barbarie. Una traición amorosa, el retorno de un pasado reprimido, o la violencia contenida en un detalle cotidiano, se presentan para impulsarlos al vértigo de perder los estribos, al innegable placer de perder el control.",
+        "stars": 4.8,
+        "keywords": ["comedia"]
+    },
+    {
+        "img": "./assets/img5.jpg",
+        "title": "La noche de los lápices",
+        "description": "Duro film argentino que recrea los trágicos acontecimientos que tuvieron lugar el 16 de septiembre de 1976 y los días posteriores en en la ciudad de La Plata, Argentina. Corrían los años de la última dictadura argentina (1976-1983), cuando entre las brutales represiones que se llevaron a cabo, el gobierno secuestró y torturó hasta la muerte a varios estudiantes de secundaria. Se trataba de jóvenes partidarios del peronismo derrocado por el golpe militar, chicos y chicas que en su mayoría no habían ni cumplido 18 años. Algunos sobrevivieron a esa horrorosa experiencia y en sus relatos se inspira esta historia.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    },
+    {
+        "img": "./assets/img1.webp",
+        "title": "Inseparables",
+        "description": "Un adinerado hombre de negocios con tetraplejia contrata a un jardinero impulsivo como su asistente terapéutico. basada en hechos reales.",
+        "stars": 3.9,
+        "keywords": ["argentina", "comedia"]
+    },
+    {
+        "img": "./assets/img2.jpg",
+        "title": "Granizo",
+        "description": "Después de que le llueven críticas por fallar en el pronóstico de una tormenta, un meteorólogo se refugia en la casa de su hija e inicia un viaje de autodescubrimiento.",
+        "stars": 2,
+        "keywords": ["argentina", "comedia", "drama"]
+    },
+    {
+        "img": "./assets/ig1.jpg",
+        "title": "Nieve negra",
+        "description": "Salvador vive aislado en su refugio de montaña. Tras décadas sin verse, su hermano Marcos y su mujer Laura, que está embarazada, viajan a Argentina para convencerle de vender las tierras que comparten por herencia de su padre. Pronto se produce el enfrentamiento de los dos hermanos y reaparecen oscuros secretos del pasado, ante la asustada mirada de la indefensa Laura.",
+        "stars": 3.5,
+        "keywords": ["drama"]
+    }
+    
+]
+}
