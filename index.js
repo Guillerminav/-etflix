@@ -7,7 +7,7 @@ const info = data["data"]
 
 let container = document.querySelector('.container');
 
-const addMovie = (img, title, description, stars, keywords) => {
+const addMovie = (img, title, description, stars, keywords, type) => {
 
     // Creacion de elementos
     let movieContainer = document.createElement('DIV')
@@ -15,6 +15,7 @@ const addMovie = (img, title, description, stars, keywords) => {
     let movieTitle = document.createElement('H2')
     let movieDescription = document.createElement('P')
     let movieKeywords = document.createElement('P')
+    let tipo = document.createElement('P')
 
     // Agregamos clases
     movieImage.setAttribute("src", img)
@@ -23,19 +24,23 @@ const addMovie = (img, title, description, stars, keywords) => {
     movieTitle.classList.add('movieTitle')
     movieDescription.classList.add('movieDescription')
     movieKeywords.classList.add('keywords')
+    tipo.classList.add('type')
 
     // Agregamos textNodes
     movieTitle.textContent = title
     movieDescription.textContent = description
     movieKeywords.textContent = keywords
+    tipo.textContent = type
 
     movieContainer.appendChild(movieImage)
     movieContainer.appendChild(movieTitle)
     movieContainer.appendChild(movieDescription)
     movieContainer.appendChild(movieKeywords)
+    movieContainer.appendChild(tipo)
     movieTitle.style.display = 'none'
     movieDescription.style.display = 'none'
     movieKeywords.style.display = 'none'
+    tipo.style.display = 'none'
 
 
     // Eventos
@@ -91,7 +96,7 @@ const addMovie = (img, title, description, stars, keywords) => {
 let elementoTemporal = document.createDocumentFragment();
 
 for (let i = 0; i < info.length; i++) {
-    let newMovie = addMovie(info[i].img, info[i].title, info[i].description, info[i].stars, info[i].keywords);
+    let newMovie = addMovie(info[i].img, info[i].title, info[i].description, info[i].stars, info[i].keywords, info[i].type);
     elementoTemporal.appendChild(newMovie);
 }
 
@@ -178,8 +183,19 @@ const listItem = document.querySelectorAll('.toggle')
 const dropdownItems = document.querySelectorAll('.dropdown-menu')
 
 for (let i = 0; i < listItem.length; i++) {
-    listItem[i].addEventListener("click",()=>{
-        dropdownItems[i].classList.toggle('show');
+    listItem[i].addEventListener("click",(e) => {
+        dropdownItems[i].classList.toggle('show')
+        let documentFragment = document.createDocumentFragment()
+        let typeOfElement = e.target.textContent.toLowerCase()
+        for(let x = 0; x < items.length; x++) {
+            if(items[x].textContent.includes(typeOfElement)) {
+                documentFragment.appendChild(items[x])
+            }
+        }
+        document.querySelector(".container").innerHTML = '';
+        document.querySelector(".container").appendChild(documentFragment)
+
+        
     })
 }
 
@@ -193,7 +209,6 @@ let buscador = document.querySelector('.buscadorContainer')
 let movieOptions = document.querySelector('.movie-options')
 let pFullWidth = document.querySelectorAll('.navFullWidth')
 let pageTitle = document.querySelector('.cinem')
-console.log(pageTitle)
 
 nav1.addEventListener('mouseenter', () => {
     nav1.style.width = '10%'
@@ -221,6 +236,8 @@ nav1.addEventListener('mouseleave', () => {
         pFullWidth[i].style.transition = '2s'
     }
 })
+
+
 
 
 

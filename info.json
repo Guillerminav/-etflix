@@ -5,70 +5,112 @@
         "title": "Inseparables",
         "description": "Un adinerado hombre de negocios con tetraplejia contrata a un jardinero impulsivo como su asistente terapéutico. basada en hechos reales.",
         "stars": 3.9,
-        "keywords": ["argentina", "comedia"]
+        "keywords": ["argentina", "comedia"],
+        "type": "películas"
     },
     {
         "img": "./assets/img2.jpg",
         "title": "Granizo",
         "description": "Después de que le llueven críticas por fallar en el pronóstico de una tormenta, un meteorólogo se refugia en la casa de su hija e inicia un viaje de autodescubrimiento.",
         "stars": 2,
-        "keywords": ["argentina", "comedia", "drama"]
+        "keywords": ["argentina", "comedia", "drama"],
+        "type": "películas"
+    },
+    {
+        "img": "./assets/img10.jpg",
+        "title": "Okupas",
+        "description": "En el año 2000, un grupo de jóvenes ocupa ilegalmente una casa en Buenos Aires, al tiempo que lucha por la supervivencia en una ciudad cada vez más violenta y hostil.",
+        "stars": 3,
+        "keywords": ["argentina", "comedia", "drama"],
+        "type": "series"
     },
     {
         "img": "./assets/ig1.jpg",
         "title": "Nieve negra",
         "description": "Salvador vive aislado en su refugio de montaña. Tras décadas sin verse, su hermano Marcos y su mujer Laura, que está embarazada, viajan a Argentina para convencerle de vender las tierras que comparten por herencia de su padre. Pronto se produce el enfrentamiento de los dos hermanos y reaparecen oscuros secretos del pasado, ante la asustada mirada de la indefensa Laura.",
         "stars": 3.5,
-        "keywords": ["drama"]
+        "keywords": ["drama"],
+        "type": "películas"
     },
     {
         "img": "./assets/img3.jpg",
         "title": "El ciudadano ilustre",
         "description": "Daniel Mantovani es un escritor argentino que vive en Europa desde hace más de tres décadas, consagrado mundialmente por haber obtenido el premio Nobel de literatura. Sus novelas se caracterizan por retratar con maestría y despiadada crudeza la vida en Salas, el pequeño pueblo de Argentina en el que nació y al que no ha regresado desde que era un joven con aspiraciones de escritor. Entre la profusa correspondencia que recibe diariamente, le llega una carta de la municipalidad de Salas en la que lo invitan a recibir el máximo reconocimiento del pueblo: la distinción de Ciudadano ilustre. Sorprendentemente, y a pesar de sus importantes obligaciones y compromisos, Daniel decide aceptar la propuesta y regresar a Salas, su pueblo natal.",
         "stars": 2,
-        "keywords": ["comedia"]
+        "keywords": ["comedia"],
+        "type": "películas"
+    },
+    {
+        "img": "./assets/img11.jpg",
+        "title": "Los simuladores",
+        "description": "Los simuladores es una serie de televisión argentina cuya trama gira en torno a la vida de cuatro socios que, mediante operativos de simulacro sofisticados, «resuelven los problemas de gente común».",
+        "stars": 3.2,
+        "keywords": ["argentina", "comedia", "drama"],
+        "type": "series"
     },
     {
         "img": "./assets/img4.jpg",
         "title": "Relatos salvajes",
         "description": "La desigualdad, la injusticia y la exigencia del mundo en que vivimos producen que muchas personas se estresen o se depriman. Algunas explotan. Esta es una película sobre ellos. Vulnerables ante una realidad que súbitamente se altera y se torna impredecible, los protagonistas de Relatos salvajes cruzan la delgada frontera que divide a la civilización de la barbarie. Una traición amorosa, el retorno de un pasado reprimido, o la violencia contenida en un detalle cotidiano, se presentan para impulsarlos al vértigo de perder los estribos, al innegable placer de perder el control.",
         "stars": 4.8,
-        "keywords": ["comedia"]
+        "keywords": ["comedia"],
+        "type": "películas"
     },
     {
         "img": "./assets/img5.jpg",
         "title": "La noche de los lápices",
         "description": "Duro film argentino que recrea los trágicos acontecimientos que tuvieron lugar el 16 de septiembre de 1976 y los días posteriores en en la ciudad de La Plata, Argentina. Corrían los años de la última dictadura argentina (1976-1983), cuando entre las brutales represiones que se llevaron a cabo, el gobierno secuestró y torturó hasta la muerte a varios estudiantes de secundaria. Se trataba de jóvenes partidarios del peronismo derrocado por el golpe militar, chicos y chicas que en su mayoría no habían ni cumplido 18 años. Algunos sobrevivieron a esa horrorosa experiencia y en sus relatos se inspira esta historia.",
         "stars": 3.5,
-        "keywords": ["drama"]
+        "keywords": ["drama"],
+        "type": "películas"
     },
     {
         "img": "./assets/img6.jpg",
         "title": "El secreto de sus ojos",
         "description": "Benjamín Esposito se acaba de jubilar después de llevar toda la vida trabajando en el juzgado. Su nuevo estado le concede mucho tiempo libre por lo que decide escribir una novela. Enseguida tiene claro de qué irá su libro. Hace más de dos décadas trabajó en el caso del asesinato y violación de una joven, que se resolvió de una manera nada satisfactoria. La vuelta atrás de Esposito lo lleva a mirar de frente otra vez a los fantasmas del pasado que en el presente lo atormentan más de lo que le gustaría reconocer. No sólo se trata de volver para dar respuesta al caso, sino que Benjamín tiene también razones sentimentales. Resulta que lleva más de 20 años enamorado de la que fuera su jefa en el juzgado. La mirada atrás parece ser la puerta para cerrar en el presente las distintas historias que han marcado su vida.",
         "stars": 5,
-        "keywords": ["drama"]
+        "keywords": ["drama"],
+        "type": "películas"
+    },
+    {
+        "img": "./assets/img12.jpg",
+        "title": "El marginal",
+        "description": "Un expolicía infiltrado intenta desbaratar una banda que opera desde la cárcel, pero antes deberá manejar los códigos del inframundo para sobrevivir.",
+        "stars": 4,
+        "keywords": ["argentina", "comedia", "drama"],
+        "type": "series"
     },
     {
         "img": "./assets/img7.jpg",
         "title": "Elsa y Fred",
         "description": "Fred, un anciano incapaz de superar la pérdida de su esposa, se muda a un nuevo bloque de apartamentos para tratar de olvidar. Allí, acaba enamorándose de su vecina, Elsa, octogenaria con vitalidad de veintañera, que sueña con emular la escena de La dolce vita en la que Anita Ekberg se baña en la Fontana di Trevi. Para los familiares de ambos, el idilio es una locura.",
         "stars": 2,
-        "keywords": ["drama"]
+        "keywords": ["drama"],
+        "type": "películas"
     },
     {
         "img": "./assets/img8.jpg",
         "title": "Corazón de león",
         "description": "Ivana Cornejo ha triunfado en lo relación a su profesión. Es una abogada especializada en problemas familiares, y, aparentemente, las cosas le van a pedir de boca. No obstante, su situación sentimental no es tan buena como la laboral. Ivana está divorciada desde hace tres años, y parece no tener suerte en el amor.",
         "stars": 3,
-        "keywords": ["comedia"]
+        "keywords": ["comedia"],
+        "type": "películas"
+    },
+    {
+        "img": "./assets/img13.jpg",
+        "title": "El reino",
+        "description": "El reino es una serie de televisión web de thriller dramático argentino original de Netflix. La ficción cuenta cómo un candidato a vicepresidente debe tomar el lugar del candidato a presidente en Argentina, luego de que éste fuera asesinado durante la campaña electoral y mientras tanto se comenzará a investigar quién cometió el crimen.",
+        "stars": 3.6,
+        "keywords": ["argentina", "comedia", "drama"],
+        "type": "series"
     },
     {
         "img": "./assets/img9.jpg",
         "title": "El clan",
         "description": "La historia de los Puccio: una respetada familia que, en la Argentina de comienzos de los años 80, hizo del secuestro y el asesinato su modo de vida.",
         "stars": 3.5,
-        "keywords": ["drama"]
+        "keywords": ["drama"],
+        "type": "películas"
     }
     
 ]
