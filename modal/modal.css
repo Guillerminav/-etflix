@@ -38,9 +38,9 @@
 
 .modalInfoContainer {
     padding: 0 30px;
-    background: rgb(43, 43, 43);
-    background: linear-gradient(0deg, rgba(43, 43, 43, 1) 79%, rgba(255, 255, 255, 0) 100%);
-    color: #f1f1f1;
+    background: #1D242B;
+    background: linear-gradient(0deg, #1D242B 79%, rgba(255, 255, 255, 0) 100%);
+    color: #fafafa;
     margin: 0;
     z-index: 600;
     position: relative;
@@ -68,7 +68,7 @@
 }
 
 .play, .addToList, .like {
-    border: solid 2px #f1f1f199;
+    border: solid 2px #fafafa99;
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -88,7 +88,7 @@
 .fa-plus,
 .fa-play,
 .fa-heart {
-    color: #f1f1f199;
+    color: #fafafa99;
 }
 
 
@@ -120,18 +120,18 @@
     content: "\f005 \f005 \f005 \f005 \f005";
     font-family: "Font Awesome 5 Free";
     font-weight: 100;
-    color: #f1f1f199;
+    color: #fafafa99;
 }
 
 .starsInner::before {
     content: "\f005 \f005 \f005 \f005 \f005";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: #f1f1f1;
+    color: #fafafa;
 }
 
 .numberRating {
-    color: #f1f1f199;
+    color: #fafafa99;
 }
 
 .closeButtonContainer {
@@ -147,10 +147,12 @@
 }
 
 .fa-xmark {
-    color: #f1f1f1;
+    color: #1D242B;
     font-size: 30px;
     cursor: pointer;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-        0px 8px 13px rgba(0,0,0,0.1),
-        0px 18px 23px rgba(0,0,0,0.1);
+    transition: .5s;
+}
+
+.fa-xmark:hover {
+    transform: rotate(180deg);
 }

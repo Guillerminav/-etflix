@@ -9,12 +9,12 @@ titleContainer.classList.add('titleContainer')
 
 let h1Title = document.createElement('H1')
 h1Title.classList.add('pageTitle')
+h1Title.setAttribute('href', '../index.html')
 
-let titleLink = document.createElement('A')
-titleLink.setAttribute('href', '../index.html')
+let titleLink = document.createElement('P')
+titleLink.classList.add('cinem')
 
 let spanTitle = document.createElement('SPAN')
-spanTitle.classList.add('navFullWidth')
 spanTitle.classList.add('spanTitle')
 
 let options = document.createElement('DIV')
@@ -55,12 +55,13 @@ nav1.appendChild(topOptions)
 nav1.appendChild(bottomOptions)
 
 topOptions.appendChild(titleContainer)
-topOptions.appendChild(options)
 topOptions.appendChild(userContainer)
+topOptions.appendChild(options)
+
 
 titleContainer.appendChild(h1Title)
 h1Title.appendChild(titleLink)
-titleLink.appendChild(spanTitle)
+h1Title.appendChild(spanTitle)
 
 options.appendChild(iconVer)
 options.appendChild(iconVerText)
@@ -72,8 +73,10 @@ bottomOptions.appendChild(settingsContainer)
 settingsContainer.appendChild(iconSettings)
 settingsContainer.appendChild(iconSettingsText)
 
-spanTitle.textContent = 'inemAR'
-titleLink.textContent = 'C'
+spanTitle.textContent = 'AR'
+titleLink.textContent = 'CINE'
+
+
 
 iconVerText.textContent = 'Ver ahora'
 iconUserText.textContent = 'Mi cuenta'

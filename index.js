@@ -107,6 +107,10 @@ const bienvenida = () => {
     nav2.style.visibility = 'hidden'
     modal.style.visibility = 'hidden'
     moviesContainer.style.visibility = 'hidden'
+    nav1.style.display = 'none'
+    nav2.style.display = 'none'
+    modal.style.display = 'none'
+    moviesContainer.style.display = 'none'
 }
 
 document.addEventListener('DOMContentLoaded', bienvenida)
@@ -119,6 +123,10 @@ const quitarBienvenida = () => {
     nav2.style.visibility = 'visible'
     modal.style.display = 'none'
     moviesContainer.style.visibility = 'visible'
+    nav1.style.display = 'flex'
+    nav2.style.display = 'flex'
+    modal.style.display = 'flex'
+    moviesContainer.style.display = 'flex'
 }
 
 btnIngresar.addEventListener('click', quitarBienvenida)
@@ -184,11 +192,14 @@ let displayModal = document.querySelector('.modal')
 let buscador = document.querySelector('.buscadorContainer')
 let movieOptions = document.querySelector('.movie-options')
 let pFullWidth = document.querySelectorAll('.navFullWidth')
+let pageTitle = document.querySelector('.cinem')
+console.log(pageTitle)
 
 nav1.addEventListener('mouseenter', () => {
     nav1.style.width = '10%'
     //nav2.style.width = '12%'
     //nav2.style.left = '6%'
+    pageTitle.style.display = 'flex'
     nav1.style.alignItems = 'flex-start'
     nav2.style.opacity = 0
     for(let i = 0; i < pFullWidth.length; i++) {
@@ -203,6 +214,7 @@ nav1.addEventListener('mouseleave', () => {
     nav1.style.width = '4%'
     nav1.style.alignItems = 'center'
     nav2.style.opacity = 1
+    pageTitle.style.display = 'none'
     for(let i = 0; i < pFullWidth.length; i++) {
         pFullWidth[i].style.display = 'none'
         pFullWidth[i].style.opacity = 0

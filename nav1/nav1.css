@@ -13,19 +13,32 @@
     z-index: 999;
     transition: .4s;
     position: fixed;
+    font-family: 'Poppins', sans-serif;
 }
 
-.pageTitle a {
-    color: #B73E3E;
-    text-decoration: none;
-    font-size: 1.5em;
+.pageTitle {
     display: flex;
+    cursor: pointer;
     align-items: center;
+
+}
+
+.cinem {
+    color: #FAFAFA;
+    font-size: 25px;
+    font-weight: 100;
+    display: none;
+}
+
+.spanTitle {
+    font-size: 25px;
+    color: #FAFAFA;
+    font-weight: 800;
 }
 
 .options, .userContainer, .settingsContainer {
     text-decoration: none;
-    color: #f1f1f1;
+    color: #FAFAFA;
     display: flex;
     align-items: center;
     margin-top: 20px;
@@ -34,13 +47,22 @@
 }
 
 .fa-bars, .fa-user {
-    color: #f1f1f1;
-    font-size: 20px;
-    background-color: #B73E3E;
-    padding: 10px 12px;
+    color: #1f1f1f;
+    font-size: 18px;
+    background-color: #FAFAFA;
+    padding: 8px 10px;
     border-radius: 50%;
     display: inline;
+    transition: .2s;
 }
+.options:hover, .userContainer:hover {
+    color: #FAFAFA99;
+}
+
+.fa-bars:hover, .fa-user:hover {
+    background-color: #FAFAFA99;
+}
+
 
 .topOptions {
     display: flex;
@@ -56,14 +78,16 @@
 
 .fa-gear {
     font-size: 30px;
-    color: #f1f1f1;
+    color: #FAFAFA;
     margin: 10px auto;
+    transition: .5s;
 }
-.spanTitle {
-    font-size: 20px;
-    display: none;
+
+.fa-gear:hover {
+    transform: rotate(180deg);
 }
+
 .navFullWidth {
     display: none;
-    font-size: 18px;
+    font-size: 16px;
 }
